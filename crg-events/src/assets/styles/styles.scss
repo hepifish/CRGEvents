@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+@include mat-core();
+
+$crg-primary: mat-palette($mat-indigo);
+$crg-accent: mat-palette($mat-pink, A200, A100, A400);
+$crg-warn: mat-palette($mat-red);
+$crg-theme: mat-light-theme($crg-primary, $crg-accent, $crg-warn);
+
+@include angular-material-theme($crg-theme);
+
+@font-face {
+  font-family: gotham;
+  src: url('/assets/font/Gotham-Light.otf') format("opentype");
+}
+
+* {
+  font-family: Gotham;
+}
