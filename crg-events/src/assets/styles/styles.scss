@@ -14,6 +14,9 @@ $crg-theme: mat-light-theme($crg-primary, $crg-accent, $crg-warn);
   src: url('/assets/font/Gotham-Light.otf') format("opentype");
 }
 
-* {
-  font-family: Gotham;
+@font-face {
+  font-family: gothamItalic;
+  src: url('/assets/font/GothamLightItalic.ttf') format("opentype");
 }
+
+@import "common";

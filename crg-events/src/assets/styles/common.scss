@@ -1,0 +1,24 @@
+body {
+  font-family: Gotham;
+
+  .container {
+    min-height: 500px;
+  }
+
+  h2 {
+    font-family: 'gothamItalic';
+  }
+
+  hr {
+    clear: both;
+    height: 0;
+    margin: 21.7px 0;
+    border: 0;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #fff;
+  }
+
+  .flex {
+    display: flex;
+  }
+}

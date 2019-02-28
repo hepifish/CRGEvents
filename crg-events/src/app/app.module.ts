@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import {SharedModule} from './shared/shared.module';
 import {GalleryModule} from './gallery/gallery.module';
+import {MatCardModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,8 @@ import {GalleryModule} from './gallery/gallery.module';
     BrowserAnimationsModule,
     GalleryModule,
     SharedModule,
+    // ------- MATERIAL IMPORTS -------
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
