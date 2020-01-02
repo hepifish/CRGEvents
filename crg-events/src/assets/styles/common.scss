@@ -6,8 +6,19 @@ body {
     min-height: 500px;
   }
 
+  h1 {
+    color: #53687a;
+    text-align: center;
+    text-transform: uppercase;
+  }
   h2 {
     //font-family: 'gothamItalic';
+  }
+
+  h3 {
+    color: rgba(0,0,0,.6);
+    font-size: 14px;
+    text-align: center;
   }
 
   hr {

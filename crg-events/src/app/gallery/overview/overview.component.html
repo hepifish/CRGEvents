@@ -1,3 +1,31 @@
-<p>
-  overview works!
-</p>
+<div class="container">
+    <div class="presentation">
+        <!--    TODO change to single section ngFor over list of json with name, image, routerLink -->
+        <!--    TODO routerLink with predefined value-->
+
+        <div class="section" [routerLink]="['/gallery/details', 'travel', '6']">
+            <img src="/assets/images/gallery/travel.jpg">
+            <div class="overlay">
+                <div class="text">"We love traveling" Wedding</div>
+            </div>
+        </div>
+        <div class="section" [routerLink]="['/gallery/details', 'balloon', '7']">
+            <img src="/assets/images/gallery/balloon.jpg">
+            <div class="overlay">
+                <div class="text">AirBalloon Baby Party</div>
+            </div>
+        </div>
+        <div class="section" [routerLink]="['/gallery/details', 'traditional', '9']">
+            <img src="/assets/images/gallery/traditional.jpg">
+            <div class="overlay">
+                <div class="text">Romanian Traditional Baptism Party</div>
+            </div>
+        </div>
+        <div class="section" [routerLink]="['/gallery/details', 'teddy', '6']">
+            <img src="/assets/images/gallery/teddy.jpg">
+            <div class="overlay">
+                <div class="text">Teddy Bear Baptism Party</div>
+            </div>
+        </div>
+    </div>
+</div>

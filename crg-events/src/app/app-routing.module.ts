@@ -4,6 +4,7 @@ import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
 import {ContactComponent} from './contact/contact.component';
 import {OverviewComponent} from './gallery/overview/overview.component';
+import { DetailsComponent } from './gallery/details/details.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,11 @@ const routes: Routes = [
     path: 'gallery',
     pathMatch: 'full',
     component: OverviewComponent
+  },
+  {
+    path: 'gallery/details/:alias/:size',
+    pathMatch: 'full',
+    component: DetailsComponent
   }
 ];
 

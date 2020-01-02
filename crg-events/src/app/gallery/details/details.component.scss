@@ -1,0 +1,11 @@
+.presentation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .image {
+    max-width: 500px;
+    margin: 5px;
+    position: relative;
+  }
+}

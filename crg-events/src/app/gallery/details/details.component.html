@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>{{title}}</h1>
+<!--    TODO add i18n -->
+    <h3>This (wanna be) Summer Season started with an AirBalloon Party for little Tudor! <br>#upintheair #happiness #1stparty</h3>
+    <div class="presentation">
+        <div *ngFor="let image of images">
+            <img class="image" src="/assets/images/{{alias}}/{{image}}.jpg">
+        </div>
+    </div>
+</div>
