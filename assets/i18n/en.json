@@ -1,0 +1,20 @@
+{
+  "Gallery": {
+    "balloon": {
+      "Title": "AirBalloon Baby Party",
+      "Description": "This (wanna be) Summer Season started with an AirBalloon Party for little Tudor!"
+    },
+    "travel": {
+      "Title": "\"We love traveling\" Wedding",
+      "Description": "When you want to offer something different to your guests but in the same time you want to share with them what makes you happy."
+    },
+    "teddy": {
+      "Title": "Teddy Bear Baptism Party",
+      "Description": ""
+    },
+    "traditional": {
+      "Title": "Romanian Traditional Baptism Party",
+      "Description": "Keeping our tradition is not easy in this fast growing world."
+    }
+  }
+}
