@@ -30,3 +30,13 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .header {
+    .navbar-header {
+      .button {
+        display: none;
+      }
+    }
+  }
+}

@@ -9,3 +9,11 @@
     position: relative;
   }
 }
+
+@media (max-width: 767px) {
+  .presentation {
+    .image {
+      width: 95%;
+    }
+  }
+}
