@@ -8,9 +8,9 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class DetailsComponent implements OnInit {
 
-  private images = [];
-  private alias = '';
-  private imageSize = 0;
+   images = [];
+   alias = '';
+   imageSize = 0;
 
   constructor(private route: ActivatedRoute) {
   }

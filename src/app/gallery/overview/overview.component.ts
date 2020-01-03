@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OverviewComponent implements OnInit {
 
-  private entries: GalleryModel[] = [];
+  entries: GalleryModel[] = [];
   constructor() { }
 
   ngOnInit() {
