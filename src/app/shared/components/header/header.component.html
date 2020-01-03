@@ -1,13 +1,13 @@
 <div class="mat-elevation-z6" class="header">
-  <nav class="navbar-header">
-    <a class="button" href="">HOME</a>
-    <a class="button" href="/about">ABOUT</a>
-    <div class="logo">
-      <a href="/">
-        <img src="assets/images/crg_logo.svg">
-      </a>
-    </div>
-    <a class="button" href="/gallery">GALLERY</a>
-    <a class="button" href="/contact">CONTACT</a>
-  </nav>
+    <nav class="navbar-header">
+        <a class="button" [routerLink]="['/']">HOME</a>
+        <a class="button" [routerLink]="['/about']">ABOUT</a>
+        <div class="logo">
+            <a [routerLink]="['/']">
+                <img src="assets/images/crg_logo.svg">
+            </a>
+        </div>
+        <a class="button" [routerLink]="['/gallery']">GALLERY</a>
+        <a class="button" [routerLink]="['/contact']">CONTACT</a>
+    </nav>
 </div>

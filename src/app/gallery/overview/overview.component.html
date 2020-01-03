@@ -1,7 +1,7 @@
 <div class="container">
     <div class="presentation">
         <div class="section" [routerLink]="['/gallery/details', entry.alias, entry.size]" *ngFor="let entry of entries">
-            <img src="/assets/images/gallery/{{entry.alias}}.jpg">
+            <img src="./assets/images/gallery/{{entry.alias}}.jpg">
             <div class="overlay">
                 <div class="text" translate>Gallery.{{entry.alias}}.Title</div>
             </div>
