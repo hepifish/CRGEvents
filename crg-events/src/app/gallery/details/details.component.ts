@@ -12,9 +12,6 @@ export class DetailsComponent implements OnInit {
   private alias = '';
   private imageSize = 0;
 
-  // TODO change this to i18n and use alias.title & alias.info
-  private title = 'AirBalloon Baby Party';
-
   constructor(private route: ActivatedRoute) {
   }
 

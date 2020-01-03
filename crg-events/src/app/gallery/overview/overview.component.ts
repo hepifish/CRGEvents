@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OverviewComponent implements OnInit {
 
+  private entries: GalleryModel[] = [];
   constructor() { }
 
   ngOnInit() {
+    this.entries.push({size: 6, alias: 'travel'});
+    this.entries.push({size: 7, alias: 'balloon'});
+    this.entries.push({size: 9, alias: 'traditional'});
+    this.entries.push({size: 6, alias: 'teddy'});
   }
+}
 
+export interface GalleryModel {
+  size: number;
+  alias: string;
 }
