@@ -28,3 +28,18 @@ Run the following commands
  `ng build --prod --base-href "/CRGEvents"`
  
  `ngh -branch=gh-pages`
+ 
+## Deploy in cPanel
+
+In order to deploy to cPanel, go to:
+    
+    1. https://www.romarg.ro/cont-client/ and login
+    2. Navigate to Gazduire -> Gazduire Enduser and open crgevents.ro
+    3. Click on access cPanel
+    4. Go to File Manager, open public_html
+    5. Run locally ng build --prod
+    6. Create zip out if dist folder
+    7. In cPanel, delete everything but cgi_bin and .htaccess
+    8. In cPanel, click upload and select the prev created zip
+    9. Extract archive in public_html folder
+    10. DONE
